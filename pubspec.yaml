@@ -1,0 +1,96 @@
+name: last_mile
+description: A new Flutter application.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.2.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+  flutter_swiper: ^1.1.2
+  flutter_staggered_grid_view: ^0.3.0
+  rubber: ^0.3.2
+  tabbar: ^0.0.3
+  datetime_picker_formfield: ^1.0.0
+  flutter_page_indicator: ^0.0.3
+  pin_code_text_field: ^1.3.6
+  country_code_picker: ^1.1.5
+  geocoder: ^0.2.1
+  geolocator: '^5.1.1'
+  http: any
+  intl: any
+  location: ^2.5.3
+  flutter_calendar: ^0.0.9
+  cupertino_range_slider: ^1.0.1
+  flutter_range_slider: "^1.4.0"
+  flutter_xlider: ^3.4.0
+  flutter_datetime_picker: ^1.4.0
+  numberpicker: ^1.0.0
+  google_maps_flutter: ^0.5.20+2
+  modal_bottom_sheet: ^0.1.6+1
+  flare_splash_screen: ^2.1.2
+  flutter_svg: 0.18.0
+  flutter_rating_bar: ^3.0.1+1
+  solid_bottom_sheet: ^0.1.9
+  calendarro: ^1.0.0
+  universal_html: ^1.2.3
+  google_fonts: ^0.3.5
+  shared_preferences: any
+  shimmer: ^1.1.2
+  cloud_firestore: ^0.14.0+2
+  firebase_core: ^0.5.0
+  dio: ^3.0.8
+  get: ^3.16.2
+  progress_dialog: ^1.2.4
+  credit_card: ^0.1.8
+  firebase_auth: ^0.18.0+1
+  firebase_database: ^4.3.0
+  fluttertoast: ^3.1.3
+  firebase_messaging: ^6.0.16
+  flutter_launcher_icons: ^0.8.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+
+  fonts:
+    - family: aveh
+      fonts:
+        - asset: fonts/AvenirLTStd-Medium.otf
+    - family: aveb
+      fonts:
+        - asset: fonts/AvenirLTStd-Book.otf
+    - family: roboto
+      fonts:
+        - asset: fonts/Roboto-Regular.ttf
+    - family: robotob
+      fonts:
+        - asset: fonts/Roboto-Bold.ttf
+    - family: sansb
+      fonts:
+        - asset: fonts/SourceSansPro-Bold.ttf
+
+
